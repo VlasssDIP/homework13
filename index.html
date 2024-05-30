@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <section class="main-form">
+      <div class="container">
+        <div class="form-container">
+      
+        <form action="#">
+          <div class="cards-switch">
+            <input type="checkbox" name="checkbox" id="check">
+            <label for="check">
+              <span>Вход</span>
+              <span>Регистрация</span>
+            </label>
+          </div>
+          <h1 class="form-title">Вход</h1>
+          <input class="data" type="email" name="email" id="email" placeholder="Введите E-mail">
+          <input  class="data" type="password" name="password" id="password" placeholder="Пароль">
+          <div class="password_return">
+          <p class="checkbox_main">
+          <input id="confirm" type="checkbox">
+          <label for="confirm">Запомнить меня</label>
+        </p>
+          <a href="#" class="help_href">Забыли пароль?</a>
+        </div>
+          <button class="btn-form">Войти</button>
+          <div class="register_block">
+          <p class="not_acc simple_text">Еще нет аккаунта? </p> 
+          <a href="#" class="help_href register">Зарегистрироваться</a>
+        </div>
+          <p class="repeat_enter_text">Или войдите через</p>
+          <ul class="icon-list">
+            <li><a href="#">
+                <svg>
+                  <use href="/images/sprite.svg#facebook"></use>
+                </svg>
+            </a></li>
+            <li><a href="#">
+              <svg>
+                <use href="/images/sprite.svg#instagram"></use>
+              </svg>
+            </a></li>
+            <li><a href="#">
+              <svg>
+                <use href="/images/sprite.svg#linkid"></use>
+              </svg>
+            </a></li>  
+
+          </ul>
+        </form>
+      </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
